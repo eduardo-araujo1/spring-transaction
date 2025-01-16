@@ -30,7 +30,6 @@ O projeto demonstra o uso das seguintes estratégias de propagação de transaç
 
 - **`REQUIRED`**: Participa de uma transação existente ou cria uma nova se não houver uma.
 - **`REQUIRES_NEW`**: Sempre cria uma nova transação, suspendendo qualquer transação existente.
-- **`NESTED`**: Executa dentro de uma transação aninhada, permitindo rollback independente.
 
 ---
 
